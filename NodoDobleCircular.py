@@ -59,7 +59,7 @@ class LIsta_Circular_Doble_Enlazada:
                 print("actual: %s" %(aux.valor))
                 print("Siguiente: %s" %(aux.siguiente.valor))
             
-            elif aux.siguiente == self.primero:
+            if aux.siguiente == self.primero:
                 return
 
             aux = aux.siguiente
@@ -74,7 +74,7 @@ lista.add_Final(4)
 lista.add_Final(5)
 lista.recorrer_inicio_fin()
 
-lista.buscar(1)
+lista.buscar(5)
 
                 
             
